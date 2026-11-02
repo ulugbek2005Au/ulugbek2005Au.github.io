@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://ulugbek2005au.github.io/en/</loc></url>
-  <url><loc>https://ulugbek2005au.github.io/es/</loc></url>
-  <url><loc>https://ulugbek2005au.github.io/ru/</loc></url>
-  <url><loc>https://ulugbek2005au.github.io/tr/</loc></url>
-  <url><loc>https://ulugbek2005au.github.io/uz/</loc></url>
-  <url><loc>https://ulugbek2005au.github.io/zh/</loc></url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/en/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/es/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/ru/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/tr/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/uz/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/zh/</loc>
+  </url>
 </urlset>
