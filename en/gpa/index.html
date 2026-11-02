@@ -1,1 +1,310 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Calculate weighted GPA from grade points and credits on a 4.0 scale."><meta name="theme-color" content="#4f46e5"><title>GPA Calculator | Everyday Tools</title><link rel="stylesheet" href="/assets/style.css"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"></head><body><header class="top"><div class="wrap topin"><a class="brand" href="/en/"><span class="brandmark">✦</span>Everyday Tools</a><nav class="nav"><a href="/en/">Your inputs stay on this device.</a><a href="/en/#tools">All tools</a><a href="/en/about/">About</a></nav><select id="language" aria-label="Language"><option value="en" selected>English</option><option value="uz" >O‘zbekcha</option><option value="ru" >Русский</option><option value="zh" >中文</option><option value="es" >Español</option><option value="tr" >Türkçe</option></select></div></header><main><div class="wrap"><div class="pagehead"><div class="crumb"><a href="/en/">Your inputs stay on this device.</a> / GPA Calculator</div><h1>🎓 GPA Calculator</h1><p>Calculate weighted GPA from grade points and credits on a 4.0 scale.</p></div><div class="contentgrid"><div><section class="panel"><h2>GPA Calculator</h2><form id="calc"><div id="gradeRows"><div class="rowgrade"><div class="field"><label>Grade points (0–4)</label><input class="grade" type="number" min="0" max="4" step="any" value="4" required></div><div class="field"><label>Credits</label><input class="credit" type="number" min="0.01" max="100" step="any" value="3" required></div><button class="smallbtn remove-row" type="button" aria-label="Remove row">×</button></div></div><button type="button" class="smallbtn" id="addRow">+ Add course</button><br><br><div class="actions"><button class="btn" type="submit">Calculate</button><button class="btn ghost" type="button" id="reset">Reset</button></div></form><div class="result" id="result" role="status" aria-live="polite">Your result will appear here</div><p class="muted" style="font-size:13px">🔒 Choose a calculator or writing utility. Everything runs directly in your browser.</p></section><section class="panel info"><h2>Popular tools</h2><p>Add a row for each course, enter grade points from 0 to 4 and positive credits, then calculate the weighted average.</p><h2>Frequently asked questions</h2><p>Does every university use a 4.0 scale? No. Check your institution’s grading policy before using the result.</p></section></div><aside class="side"><h2>Home</h2><a class="toolcard" data-search="Percentage Calculator" href="/en/percentage/"><span class="toolicon">%</span><h3>Percentage Calculator</h3><p>Find what percentage a part represents of a whole.</p></a><a class="toolcard" data-search="Word Counter" href="/en/words/"><span class="toolicon">✍️</span><h3>Word Counter</h3><p>Count words, characters and reading time as you type.</p></a><a class="toolcard" data-search="Age Calculator" href="/en/age/"><span class="toolicon">🎂</span><h3>Age Calculator</h3><p>Calculate your completed years, months and days from a birth date.</p></a><a class="toolcard" data-search="BMI Calculator" href="/en/bmi/"><span class="toolicon">⚖️</span><h3>BMI Calculator</h3><p>Estimate adult body mass index using height and weight.</p></a></aside></div></div></main><footer class="foot"><div class="wrap"><strong>✦ Everyday Tools</strong><p>Made for clarity, built for speed.</p><div class="footlinks"><a href="/en/about/">About</a><a href="/en/privacy/">Privacy</a><a href="/en/terms/">Terms</a><a href="/en/contact/">Contact</a></div><small>© 2026 Everyday Tools. Choose a calculator or writing utility. Everything runs directly in your browser.</small></div></footer><script>window.PAGE={"tool": "gpa", "invalid": "Enter valid values to continue.", "placeholder": "Your result will appear here", "years": "years", "months": "months", "days": "days", "words": "words", "characters": "characters", "minutes": "min"};</script><script src="/assets/app.js" defer></script></body></html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Free GPA Calculator – Calculate Weighted GPA | Everyday Tools</title>
+
+  <meta name="description" content="Calculate your weighted GPA online for free using course grade points and credits. Learn the GPA formula with examples on a 4.0 scale.">
+
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#4f46e5">
+
+  <link rel="canonical" href="https://ulugbek2005au.github.io/en/gpa/">
+
+  <link rel="alternate" hreflang="en" href="https://ulugbek2005au.github.io/en/gpa/">
+  <link rel="alternate" hreflang="uz" href="https://ulugbek2005au.github.io/uz/gpa/">
+  <link rel="alternate" hreflang="ru" href="https://ulugbek2005au.github.io/ru/gpa/">
+  <link rel="alternate" hreflang="zh" href="https://ulugbek2005au.github.io/zh/gpa/">
+  <link rel="alternate" hreflang="es" href="https://ulugbek2005au.github.io/es/gpa/">
+  <link rel="alternate" hreflang="tr" href="https://ulugbek2005au.github.io/tr/gpa/">
+  <link rel="alternate" hreflang="x-default" href="https://ulugbek2005au.github.io/en/gpa/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Free GPA Calculator | Everyday Tools">
+  <meta property="og:description" content="Calculate your weighted GPA instantly using grade points and course credits.">
+  <meta property="og:url" content="https://ulugbek2005au.github.io/en/gpa/">
+
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+  <header class="top">
+    <div class="wrap topin">
+      <a class="brand" href=" ">
+        <span class="brandmark">✦</span>
+        Everyday Tools
+      </a >
+
+      <nav class="nav">
+        <a href="/en/">Your inputs stay on this device.</a >
+        <a href="/en/#tools">All tools</a >
+        <a href="/en/about/">About</a >
+      </nav>
+
+      <select id="language" aria-label="Language">
+        <option value="en" selected>English</option>
+        <option value="uz">O‘zbekcha</option>
+        <option value="ru">Русский</option>
+        <option value="zh">中文</option>
+        <option value="es">Español</option>
+        <option value="tr">Türkçe</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+
+      <div class="pagehead">
+        <div class="crumb">
+          <a href="/en/">Home</a > / GPA Calculator
+        </div>
+
+        <h1>🎓 Free GPA Calculator</h1>
+
+        <p>
+          Calculate your weighted Grade Point Average
+          using course grade points and credits.
+        </p >
+      </div>
+
+      <div class="contentgrid">
+        <div>
+
+          <section class="panel">
+            <h2>Calculate Your GPA</h2>
+
+            <form id="calc">
+              <div id="gradeRows">
+
+                <div class="rowgrade">
+                  <div class="field">
+                    <label>Grade points (0–4)</label>
+                    <input
+                      class="grade"
+                      type="number"
+                      min="0"
+                      max="4"
+                      step="any"
+                      value="4"
+                      required
+                    >
+                  </div>
+
+                  <div class="field">
+                    <label>Credits</label>
+                    <input
+                      class="credit"
+                      type="number"
+                      min="0.01"
+                      max="100"
+                      step="any"
+                      value="3"
+                      required
+                    >
+                  </div>
+
+                  <button
+                    class="smallbtn remove-row"
+                    type="button"
+                    aria-label="Remove row"
+                  >×</button>
+                </div>
+
+              </div>
+
+              <button type="button" class="smallbtn" id="addRow">
+                + Add course
+              </button>
+
+              <br><br>
+
+              <div class="actions">
+                <button class="btn" type="submit">Calculate</button>
+                <button class="btn ghost" type="button" id="reset">Reset</button>
+              </div>
+            </form>
+
+            <div class="result" id="result" role="status" aria-live="polite">
+              Your result will appear here
+            </div>
+
+            <p class="muted" style="font-size:13px">
+              🔒 Your calculation runs directly in your browser.
+            </p >
+          </section>
+
+          <section class="panel info">
+            <h2>What Is GPA?</h2>
+
+            <p>
+              GPA stands for Grade Point Average.
+              It summarizes academic performance using
+              numerical grade points. Many universities
+              use a 4.0 scale, although grading systems
+              differ between institutions.
+            </p >
+
+            <h2>How to Calculate Weighted GPA</h2>
+
+            <p>
+              Multiply each course's grade points by
+              its credits. Add those products together,
+              then divide by the total number of credits.
+            </p >
+
+            <p>
+              <strong>
+                GPA = Sum of (Grade Points × Credits)
+                / Total Credits
+              </strong>
+            </p >
+
+            <h3>GPA Calculation Example</h3>
+
+            <p>
+              Suppose you completed three courses:
+            </p >
+
+            <ul>
+              <li>Course 1: 4.0 grade points, 3 credits</li>
+              <li>Course 2: 3.0 grade points, 4 credits</li>
+              <li>Course 3: 3.5 grade points, 2 credits</li>
+            </ul>
+
+            <p>
+              Weighted points:
+              (4.0 × 3) + (3.0 × 4) + (3.5 × 2) = 31
+            </p >
+
+            <p>
+              Total credits: 3 + 4 + 2 = 9
+            </p >
+
+            <p>
+              <strong>GPA = 31 / 9 = 3.44</strong>
+            </p >
+
+            <h2>Frequently Asked Questions</h2>
+
+            <h3>Is this GPA calculator free?</h3>
+            <p>
+              Yes. You can calculate your GPA
+              without registration or payment.
+            </p >
+
+            <h3>Does every university use a 4.0 GPA scale?</h3>
+            <p>
+              No. Some universities use different scales
+              or conversion methods. Check your institution's
+              grading policy before using the result.
+            </p >
+
+            <h3>Why are credits important?</h3>
+            <p>
+              Credits determine the weight of each course.
+              A course with more credits contributes
+              more to your weighted GPA.
+            </p >
+
+            <h3>Can I calculate GPA for multiple courses?</h3>
+            <p>
+              Yes. Click Add course to enter additional
+              grade points and credits.
+            </p >
+
+            <h3>Is this my official university GPA?</h3>
+            <p>
+              Not necessarily. Your university may apply
+              additional rules, such as grade conversions
+              or repeated-course policies.
+            </p >
+          </section>
+
+        </div>
+
+        <aside class="side">
+          <h2>Other Free Tools</h2>
+
+          <a class="toolcard" data-search="Percentage Calculator" href="/en/percentage/">
+            <span class="toolicon">%</span>
+            <h3>Percentage Calculator</h3>
+            <p>
+              Find what percentage a part represents
+              of a whole.
+            </p >
+          </a >
+
+          <a class="toolcard" data-search="Word Counter" href="/en/words/">
+            <span class="toolicon">✍️</span>
+            <h3>Word Counter</h3>
+            <p>
+              Count words, characters and reading time
+              as you type.
+            </p >
+          </a >
+
+          <a class="toolcard" data-search="Age Calculator" href="/en/age/">
+            <span class="toolicon">🎂</span>
+            <h3>Age Calculator</h3>
+            <p>
+              Calculate your completed years, months
+              and days from a birth date.
+            </p >
+          </a >
+
+          <a class="toolcard" data-search="BMI Calculator" href="/en/bmi/">
+            <span class="toolicon">⚖️</span>
+            <h3>BMI Calculator</h3>
+            <p>
+              Estimate adult body mass index
+              using height and weight.
+            </p >
+          </a >
+        </aside>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <strong>✦ Everyday Tools</strong>
+
+      <p>Made for clarity, built for speed.</p >
+
+      <div class="footlinks">
+        <a href="/en/about/">About</a >
+        <a href="/en/privacy/">Privacy</a >
+        <a href="/en/terms/">Terms</a >
+        <a href="/en/contact/">Contact</a >
+      </div>
+
+      <small>
+        © 2026 Everyday Tools. Choose a calculator or
+        writing utility. Everything runs directly in your browser.
+      </small>
+    </div>
+  </footer>
+
+  <script>
+    window.PAGE = {
+      "tool": "gpa",
+      "invalid": "Enter valid values to continue.",
+      "placeholder": "Your result will appear here",
+      "years": "years",
+      "months": "months",
+      "days": "days",
+      "words": "words",
+      "characters": "characters",
+      "minutes": "min"
+    };
+  </script>
+
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>
