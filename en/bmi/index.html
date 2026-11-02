@@ -1,1 +1,288 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Estimate adult body mass index using height and weight."><meta name="theme-color" content="#4f46e5"><title>BMI Calculator | Everyday Tools</title><link rel="stylesheet" href="/assets/style.css"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"></head><body><header class="top"><div class="wrap topin"><a class="brand" href="/en/"><span class="brandmark">✦</span>Everyday Tools</a><nav class="nav"><a href="/en/">Your inputs stay on this device.</a><a href="/en/#tools">All tools</a><a href="/en/about/">About</a></nav><select id="language" aria-label="Language"><option value="en" selected>English</option><option value="uz" >O‘zbekcha</option><option value="ru" >Русский</option><option value="zh" >中文</option><option value="es" >Español</option><option value="tr" >Türkçe</option></select></div></header><main><div class="wrap"><div class="pagehead"><div class="crumb"><a href="/en/">Your inputs stay on this device.</a> / BMI Calculator</div><h1>⚖️ BMI Calculator</h1><p>Estimate adult body mass index using height and weight.</p></div><div class="contentgrid"><div><section class="panel"><h2>BMI Calculator</h2><form id="calc"><div class="field"><label for="weight">Weight (kg)</label><input id="weight" type="number" min="0.01" max="1000" step="any" placeholder="75" required></div><div class="field"><label for="height">Height (cm)</label><input id="height" type="number" min="0.01" max="300" step="any" placeholder="180" required></div><div class="actions"><button class="btn" type="submit">Calculate</button><button class="btn ghost" type="button" id="reset">Reset</button></div></form><div class="result" id="result" role="status" aria-live="polite">Your result will appear here</div><p class="muted" style="font-size:13px">🔒 Choose a calculator or writing utility. Everything runs directly in your browser.</p></section><section class="panel info"><h2>Popular tools</h2><p>Enter weight in kilograms and height in centimeters. BMI = kg ÷ meters². For adults only; it is not a diagnosis.</p><h2>Frequently asked questions</h2><p>Does BMI measure body fat directly? No. It is a screening indicator and may be misleading for some people.</p></section></div><aside class="side"><h2>Home</h2><a class="toolcard" data-search="GPA Calculator" href="/en/gpa/"><span class="toolicon">🎓</span><h3>GPA Calculator</h3><p>Calculate weighted GPA from grade points and credits on a 4.0 scale.</p></a><a class="toolcard" data-search="Percentage Calculator" href="/en/percentage/"><span class="toolicon">%</span><h3>Percentage Calculator</h3><p>Find what percentage a part represents of a whole.</p></a><a class="toolcard" data-search="Word Counter" href="/en/words/"><span class="toolicon">✍️</span><h3>Word Counter</h3><p>Count words, characters and reading time as you type.</p></a><a class="toolcard" data-search="Age Calculator" href="/en/age/"><span class="toolicon">🎂</span><h3>Age Calculator</h3><p>Calculate your completed years, months and days from a birth date.</p></a></aside></div></div></main><footer class="foot"><div class="wrap"><strong>✦ Everyday Tools</strong><p>Made for clarity, built for speed.</p><div class="footlinks"><a href="/en/about/">About</a><a href="/en/privacy/">Privacy</a><a href="/en/terms/">Terms</a><a href="/en/contact/">Contact</a></div><small>© 2026 Everyday Tools. Choose a calculator or writing utility. Everything runs directly in your browser.</small></div></footer><script>window.PAGE={"tool": "bmi", "invalid": "Enter valid values to continue.", "placeholder": "Your result will appear here", "years": "years", "months": "months", "days": "days", "words": "words", "characters": "characters", "minutes": "min"};</script><script src="/assets/app.js" defer></script></body></html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>BMI Calculator – Free Online Body Mass Index Tool | Everyday Tools</title>
+
+  <meta name="description" content="Calculate your Body Mass Index (BMI) for free using height and weight. Learn the BMI formula, adult BMI categories, and limitations of BMI.">
+
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#4f46e5">
+
+  <link rel="canonical" href="https://ulugbek2005au.github.io/en/bmi/">
+
+  <link rel="alternate" hreflang="en" href="https://ulugbek2005au.github.io/en/bmi/">
+  <link rel="alternate" hreflang="uz" href="https://ulugbek2005au.github.io/uz/bmi/">
+  <link rel="alternate" hreflang="ru" href="https://ulugbek2005au.github.io/ru/bmi/">
+  <link rel="alternate" hreflang="zh" href="https://ulugbek2005au.github.io/zh/bmi/">
+  <link rel="alternate" hreflang="es" href="https://ulugbek2005au.github.io/es/bmi/">
+  <link rel="alternate" hreflang="tr" href="https://ulugbek2005au.github.io/tr/bmi/">
+  <link rel="alternate" hreflang="x-default" href="https://ulugbek2005au.github.io/en/bmi/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Free BMI Calculator | Everyday Tools">
+  <meta property="og:description" content="Calculate adult BMI instantly using your weight and height. Free online BMI calculator with formula and explanations.">
+  <meta property="og:url" content="https://ulugbek2005au.github.io/en/bmi/">
+
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+  <header class="top">
+    <div class="wrap topin">
+      <a class="brand" href=" ">
+        <span class="brandmark">✦</span>
+        Everyday Tools
+      </a >
+
+      <nav class="nav">
+        <a href="/en/">Your inputs stay on this device.</a >
+        <a href="/en/#tools">All tools</a >
+        <a href="/en/about/">About</a >
+      </nav>
+
+      <select id="language" aria-label="Language">
+        <option value="en" selected>English</option>
+        <option value="uz">O‘zbekcha</option>
+        <option value="ru">Русский</option>
+        <option value="zh">中文</option>
+        <option value="es">Español</option>
+        <option value="tr">Türkçe</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+
+      <div class="pagehead">
+        <div class="crumb">
+          <a href="/en/">Home</a > / BMI Calculator
+        </div>
+
+        <h1>⚖️ Free BMI Calculator</h1>
+
+        <p>
+          Calculate your Body Mass Index (BMI) using
+          your height and weight in seconds.
+        </p >
+      </div>
+
+      <div class="contentgrid">
+        <div>
+
+          <section class="panel">
+            <h2>Calculate Your BMI</h2>
+
+            <form id="calc">
+              <div class="field">
+                <label for="weight">Weight (kg)</label>
+                <input
+                  id="weight"
+                  type="number"
+                  min="0.01"
+                  max="1000"
+                  step="any"
+                  placeholder="75"
+                  required
+                >
+              </div>
+
+              <div class="field">
+                <label for="height">Height (cm)</label>
+                <input
+                  id="height"
+                  type="number"
+                  min="0.01"
+                  max="300"
+                  step="any"
+                  placeholder="180"
+                  required
+                >
+              </div>
+
+              <div class="actions">
+                <button class="btn" type="submit">Calculate</button>
+                <button class="btn ghost" type="button" id="reset">Reset</button>
+              </div>
+            </form>
+
+            <div class="result" id="result" role="status" aria-live="polite">
+              Your result will appear here
+            </div>
+
+            <p class="muted" style="font-size:13px">
+              🔒 Your calculation runs directly in your browser.
+            </p >
+          </section>
+
+          <section class="panel info">
+            <h2>What Is BMI?</h2>
+
+            <p>
+              Body Mass Index (BMI) is a screening measure
+              that compares a person's weight with their height.
+              It is commonly used to classify weight categories
+              in adults, but it does not directly measure body fat.
+            </p >
+
+            <h2>How to Calculate BMI</h2>
+
+            <p>
+              BMI is calculated by dividing weight in kilograms
+              by height in meters squared.
+            </p >
+
+            <p>
+              <strong>BMI = weight (kg) / height (m)²</strong>
+            </p >
+
+            <p>
+              For example, if someone weighs 75 kg and is
+              1.80 meters tall:
+            </p >
+
+            <p>
+              <strong>BMI = 75 / (1.80 × 1.80) = 23.1</strong>
+            </p >
+
+            <h2>Adult BMI Categories</h2>
+
+            <p>
+              The following standard BMI categories are
+              commonly used for adults:
+            </p >
+
+            <ul>
+              <li>Underweight: Below 18.5</li>
+              <li>Healthy weight: 18.5–24.9</li>
+              <li>Overweight: 25.0–29.9</li>
+              <li>Obesity: 30.0 or higher</li>
+            </ul>
+
+            <h2>Limitations of BMI</h2>
+
+            <p>
+              BMI is not a medical diagnosis. It does not
+              distinguish muscle from fat or account for
+              differences in body composition.
+              It may be less informative for athletes,
+              pregnant people and some other groups.
+            </p >
+
+            <h2>Frequently Asked Questions</h2>
+
+            <h3>Is this BMI calculator free?</h3>
+            <p>
+              Yes. You can calculate your BMI without
+              registering or paying.
+            </p >
+
+            <h3>Does BMI measure body fat directly?</h3>
+            <p>
+              No. BMI is an indirect screening measure
+              based on weight and height.
+            </p >
+
+            <h3>Can children use adult BMI categories?</h3>
+            <p>
+              No. Children and teenagers require
+              age- and sex-specific BMI interpretation.
+              This calculator is intended for adults.
+            </p >
+
+            <h3>Is a normal BMI a guarantee of good health?</h3>
+            <p>
+              No. BMI alone cannot determine a person's
+              overall health. Other health indicators
+              and individual circumstances also matter.
+            </p >
+          </section>
+
+        </div>
+
+        <aside class="side">
+          <h2>Other Free Tools</h2>
+
+          <a class="toolcard" data-search="GPA Calculator" href="/en/gpa/">
+            <span class="toolicon">🎓</span>
+            <h3>GPA Calculator</h3>
+            <p>
+              Calculate weighted GPA from grade points
+              and credits on a 4.0 scale.
+            </p >
+          </a >
+
+          <a class="toolcard" data-search="Percentage Calculator" href="/en/percentage/">
+            <span class="toolicon">%</span>
+            <h3>Percentage Calculator</h3>
+            <p>
+              Find what percentage a part represents
+              of a whole.
+            </p >
+          </a >
+
+          <a class="toolcard" data-search="Word Counter" href="/en/words/">
+            <span class="toolicon">✍️</span>
+            <h3>Word Counter</h3>
+            <p>
+              Count words, characters and reading time
+              as you type.
+            </p >
+          </a >
+
+          <a class="toolcard" data-search="Age Calculator" href="/en/age/">
+            <span class="toolicon">🎂</span>
+            <h3>Age Calculator</h3>
+            <p>
+              Calculate your completed years, months
+              and days from a birth date.
+            </p >
+          </a >
+        </aside>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <strong>✦ Everyday Tools</strong>
+
+      <p>Made for clarity, built for speed.</p >
+
+      <div class="footlinks">
+        <a href="/en/about/">About</a >
+        <a href="/en/privacy/">Privacy</a >
+        <a href="/en/terms/">Terms</a >
+        <a href="/en/contact/">Contact</a >
+      </div>
+
+      <small>
+        © 2026 Everyday Tools. Choose a calculator or
+        writing utility. Everything runs directly in your browser.
+      </small>
+    </div>
+  </footer>
+
+  <script>
+    window.PAGE = {
+      "tool": "bmi",
+      "invalid": "Enter valid values to continue.",
+      "placeholder": "Your result will appear here",
+      "years": "years",
+      "months": "months",
+      "days": "days",
+      "words": "words",
+      "characters": "characters",
+      "minutes": "min"
+    };
+  </script>
+
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>
