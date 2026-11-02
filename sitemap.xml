@@ -1,21 +1,125 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- ENGLISH -->
   <url>
     <loc>https://ulugbek2005au.github.io/en/</loc>
   </url>
   <url>
-    <loc>https://ulugbek2005au.github.io/es/</loc>
+    <loc>https://ulugbek2005au.github.io/en/gpa/</loc>
   </url>
   <url>
-    <loc>https://ulugbek2005au.github.io/ru/</loc>
+    <loc>https://ulugbek2005au.github.io/en/percentage/</loc>
   </url>
   <url>
-    <loc>https://ulugbek2005au.github.io/tr/</loc>
+    <loc>https://ulugbek2005au.github.io/en/words/</loc>
   </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/en/age/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/en/bmi/</loc>
+  </url>
+
+  <!-- UZBEK -->
   <url>
     <loc>https://ulugbek2005au.github.io/uz/</loc>
   </url>
   <url>
+    <loc>https://ulugbek2005au.github.io/uz/gpa/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/uz/percentage/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/uz/words/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/uz/age/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/uz/bmi/</loc>
+  </url>
+
+  <!-- RUSSIAN -->
+  <url>
+    <loc>https://ulugbek2005au.github.io/ru/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/ru/gpa/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/ru/percentage/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/ru/words/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/ru/age/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/ru/bmi/</loc>
+  </url>
+
+  <!-- CHINESE -->
+  <url>
     <loc>https://ulugbek2005au.github.io/zh/</loc>
   </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/zh/gpa/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/zh/percentage/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/zh/words/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/zh/age/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/zh/bmi/</loc>
+  </url>
+
+  <!-- SPANISH -->
+  <url>
+    <loc>https://ulugbek2005au.github.io/es/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/es/gpa/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/es/percentage/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/es/words/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/es/age/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/es/bmi/</loc>
+  </url>
+
+  <!-- TURKISH -->
+  <url>
+    <loc>https://ulugbek2005au.github.io/tr/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/tr/gpa/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/tr/percentage/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/tr/words/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/tr/age/</loc>
+  </url>
+  <url>
+    <loc>https://ulugbek2005au.github.io/tr/bmi/</loc>
+  </url>
+
 </urlset>
